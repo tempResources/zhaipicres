@@ -154,7 +154,7 @@
     display: inline-block;
     width: 28px;
     height: 24px;
-    background: url(../img/zticon.png) -41px -59px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -41px -59px no-repeat;
     vertical-align: sub;
     margin-right: 4px;
     text-align: center;
@@ -166,7 +166,7 @@
     display: inline-block;
     width: 22px;
     height: 20px;
-    background: url(../img/zticon.png) -94px -60px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -94px -60px no-repeat;
     vertical-align: sub;
 }
 
@@ -272,7 +272,7 @@
     height: 25px;
     margin-right: 16px;
     vertical-align: middle;
-    background: url(../img/zticon.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
     /*background-position-y: -26px;*/
     position: relative;
 }
@@ -354,7 +354,7 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url(../img/zticon.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
     margin-right: 4px;
     vertical-align: -1px;
     background-position: -8px -62px;
@@ -443,7 +443,7 @@
     left: 0;
     width: 16px;
     height: 17px;
-    background: url(../img/zticon.png) -125px -2px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -125px -2px no-repeat;
 }
 
 .bqxx{
@@ -629,7 +629,7 @@
 }
 
 [type=radio]:checked+label:after {
-    background: url(../img/zticon.png) -251px -31px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -31px no-repeat;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -684,7 +684,7 @@
     background-position: 0 0;
     width: 178px;
     height: 55px;
-    background: url(../img/logo11.png);
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/logo11.png);
 }
 
 .searchH2 {

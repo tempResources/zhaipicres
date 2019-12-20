@@ -391,7 +391,7 @@
 	background-position: 0 0;
 	width: 178px;
 	height: 55px;
-	background: url(../img/logo11.png);
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/logo11.png);
 }
 
 .searchH2 {
@@ -442,7 +442,7 @@
 	left: 0;
 	width: 100%;
 	height: 100px;
-	background: url(../img/bgto.png);
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/bgto.png);
 }
 
 .topic-des1 p {

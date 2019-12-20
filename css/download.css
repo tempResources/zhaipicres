@@ -49,7 +49,7 @@
     left: 0;
     width: 16px;
     height: 17px;
-    background: url(../img/zticon.png) -125px -2px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -125px -2px no-repeat;
 }
 
 .keyword{
@@ -78,7 +78,7 @@
     left: 0;
     width: 58px;
     height: 58px;
-    background: url(../img/zticon.png) -334px -238px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -334px -238px no-repeat;
 }
 
 .download-box .down-waiting p {
@@ -104,7 +104,7 @@
     left: 0;
     width: 58px;
     height: 58px;
-    background: url(../img/zticon.png) -333px -168px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -333px -168px no-repeat;
 }
 
 .download-box .down-error p {
@@ -195,7 +195,7 @@
     height: 32px;
     display: inline-block;
     vertical-align: middle;
-    background: url(../img/zticon.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
     background-position: -247px -90px;
 }
 
@@ -228,7 +228,7 @@
     height: 29px;
     display: inline-block;
     vertical-align: middle;
-    background: url(../img/zticon.png) -251px -135px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -135px no-repeat;
 }
 
 
@@ -409,7 +409,7 @@
 }
 
 [type=radio]:checked+label:after {
-    background: url(../img/zticon.png) -251px -31px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -31px no-repeat;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);

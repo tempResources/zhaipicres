@@ -186,7 +186,7 @@
 
 .login-after .l-menu .authenticate .email-aut i, .login-after .l-menu .authenticate .mobile-aut i,
 	.login-after .l-menu .authenticate .uname-aut i, .uim-foot ul li a i {
-	background: url(../img/zticon.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
 }
 
 .login-after .l-menu .authenticate .email-aut i {
@@ -219,7 +219,7 @@
 	color: #2c3e50;
 	cursor: pointer;
 	/*padding: 0 0 0 25px;*/
-	/*background: url(../img/zticon.png) -313px -5px no-repeat;*/
+	/*background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -313px -5px no-repeat;*/
 }
 
 .login-after .l-menu .wallet {
@@ -573,7 +573,7 @@ em, i {
 	display: inline-block;
 	width: 18px;
 	height: 20px;
-	background: url(../img/zticon.png) -500px -500px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -500px -500px no-repeat;
 }
 
 .u-ico {
@@ -639,7 +639,7 @@ em, i {
 	display: inline-block;
 	width: 18px;
 	height: 20px;
-	background: url(../img/zticon.png) -228px -1px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -228px -1px no-repeat;
 }
 
 .o-qiandao .q-hop .checkin-rewards {
@@ -830,7 +830,7 @@ em, i {
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	background: url(../img/zticon.png) -215px -56px no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -215px -56px no-repeat;
 	height: 20px;
 	width: 17px;
 	cursor: pointer;
@@ -879,7 +879,7 @@ em, i {
 	width: 82px;
 	height: 82px;
 	display: block;
-	background: url(../img/zticon.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
 	margin-bottom: 20px;
 }
 

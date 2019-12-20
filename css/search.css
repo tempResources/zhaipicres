@@ -150,7 +150,7 @@ em, i {
     display: inline-block;
     width: 18px;
     height: 20px;
-    background: url(../img/zticon.png) -500px -500px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.1/img/zticon.png) -500px -500px no-repeat;
 }
 
 .u-ico {
@@ -448,7 +448,7 @@ em, i {
 .color-list a i {
 	display: block;
 	height: 16px;
-	background: url(http://js.699pic.com/images/colorico.png) -1px -1px;
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.1/img/colorico.png) -1px -1px;
 	display: none;
 }
 
@@ -469,7 +469,7 @@ em, i {
 	width: 30px;
 	height: 18px;
 	border: none;
-	background: url(http://js.699pic.com/images/allcolor.png);
+	background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.1/img/allcolor.png);
 }
 
 .color-list .c2 {

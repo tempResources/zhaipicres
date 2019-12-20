@@ -212,7 +212,7 @@
 }
 
 [type=radio]:checked+label:after {
-    background: url(../img/zticon.png) -251px -31px no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -31px no-repeat;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
