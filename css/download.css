@@ -1,0 +1,462 @@
+.download-main-details {
+    margin-top: 61px;
+    margin-bottom: 20px;
+    height: 352px;
+    background-color: #fff;
+    padding: 45px 49px 0;
+    box-sizing: border-box;
+}
+
+.img-box {
+    width: 250px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.img-box .img {
+    width: 250px;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+.img-box .img-info {
+    margin-top: 16px;
+}
+
+.img-box .img-info>p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.img-box .img-info .inform {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 20px;
+    line-height: 20px;
+    width: 49px;
+    text-align: right;
+}
+
+.img-box .img-info .inform:after {
+   content: '';
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 16px;
+    height: 17px;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -125px -2px no-repeat;
+}
+
+.keyword{
+    margin: 0 3px;
+    color: #ff630e;
+}
+
+.download-box {
+    font-size: 14px;
+    width: 800px;
+}
+
+
+.download-box .down-waiting {
+	display: none; 
+    position: relative;
+    padding-left: 80px;
+    margin-top: 20px;
+    height: 72px;
+}
+
+.download-box .down-waiting:after {
+	content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 58px;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -334px -238px no-repeat;
+}
+
+.download-box .down-waiting p {
+    color: #666;
+    height: 28px;
+    line-height:28px;
+    padding: 0;
+        font-size: 16px;
+}
+
+.download-box .down-error {
+	 display: none; 
+    position: relative;
+    padding-left: 80px;
+    margin-top: 20px;
+    height: 72px;
+}
+
+.download-box .down-error:after {
+	content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58px;
+    height: 58px;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -333px -168px no-repeat;
+}
+
+.download-box .down-error p {
+    color: #666;
+    height: 56px;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+        font-size: 16px;
+}
+
+.download-box .down-thanks {
+    color: #333;
+    font-size: 14px;
+    padding-top: 24px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.text-red {
+    color: #ff630e;
+}
+
+.text-red:hover {
+    color: #f14700;
+}
+
+.download-box .title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 21px;
+}
+
+.download-box .down-way {
+    margin-top: 20px;
+}
+
+
+
+.btn-fast-down {
+    width: 200px;
+    border: 0;
+    height: 56px;
+    line-height: 56px;
+      margin-right: 10px;
+     border-radius: 4px;
+     text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btn-fast-down a {
+    margin-right: 18px;
+}
+
+.btn-fast-down>a {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.ztdwbtn {
+    background: #ff630e;
+	background-image: -webkit-gradient(linear,left top,right top,from(#fda233),to(#ff630e));
+    background-image: -webkit-linear-gradient(left,#fda233,#ff630e);
+    background-image: linear-gradient(to right,#fda233,#ff630e);
+}
+
+.ztdwbtn:hover,.btn-default-down:hover{
+	 -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    opacity: .9;
+}
+
+
+.download-box .down-info {
+    font-size: 16px;
+    height: 58px;
+}
+
+.ztdwbtn i {
+    margin-right: 5px;
+    width: 33px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) no-repeat;
+    background-position: -247px -90px;
+}
+
+
+.btn-default-down {
+    background-color: #fffaf4;
+    border: 1px solid #fd8320;
+        width: 200px;
+            height: 56px;
+    line-height: 56px;
+    margin-right: 10px;
+        border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.btn-default-down a {
+    color: #fd8320;
+    font-size: 18px;
+    margin-right: 18px;
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+
+.btn-default-down i {
+    margin-right: 5px;
+    width: 33px;
+    height: 29px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -135px no-repeat;
+}
+
+
+
+
+
+
+
+
+.report-win {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.report-win .report-bg {
+    height: 100%;
+    background: #000;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+
+.report-win .report-m {
+    width: 400px;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin: 0 0 0 -201px;
+    border: 1px #e5e5e5 solid;
+    border-radius: 3px;
+    background-color: #fff;
+    
+}
+
+.report-m .inform-des {
+    margin: 20px 0;
+    width: 344px;
+    height: 84px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.report-m .inform-qq {
+    margin-bottom: 20px;
+    width: 344px;
+    height: 32px;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.report-m .inform-des textarea {
+	outline: 0;
+    text-indent: 1em;
+   font-family: "微软雅黑";
+    resize: none;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 2;
+    color: #333;
+}
+
+.report-m .inform-qq input {
+	outline: 0;
+    text-indent: 1em;
+   font-family: "微软雅黑";
+    resize: none;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 32px;
+    color: #333;
+}
+
+.report-m .model-btn {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    vertical-align: middle;
+    background: #ff630e;
+	background-image: -webkit-gradient(linear,left top,right top,from(#fda233),to(#ff630e));
+    background-image: -webkit-linear-gradient(left,#fda233,#ff630e);
+    background-image: linear-gradient(to right,#fda233,#ff630e);
+}
+
+.report-m .model-btn:hover{
+	 -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.15);
+        -webkit-transition: all .2s;
+    opacity: .9;
+}
+
+.report-m .model-btn>a {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+}
+
+.report-m .head {
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px #e5e5e5 solid;
+    padding: 0;
+}
+
+.report-m  .jubao-close{
+    position: absolute;
+    font-size: 40px;
+    color: #b3b3b3;
+    right: 8px;
+    top: -6px;
+}
+
+.report-m .head h3 {
+    color: #888;
+    font-size: 20px;
+    text-indent: 34px;
+    font-weight: normal;
+}
+
+.report-m .radio-div{
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.report-m .radio-div:HOVER,.report-m .radio-div.active{
+	background: #f6f6f6;
+}
+
+.report-m .radio-inline {
+    height: 28px;
+    line-height: 28px;
+}
+
+[type=radio]:checked, [type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+[type=radio]:checked+label, [type=radio]:not(:checked)+label {
+    position: relative;
+    padding-left: 45px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    -webkit-transition: -webkit-transform .28s ease;
+    transition: -webkit-transform .28s ease;
+    transition: transform .28s ease;
+    transition: transform .28s ease,-webkit-transform .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+[type=radio]:checked+label:after {
+    background: url(https://cdn.jsdelivr.net/gh/tempResources/zhaipicres@2.0/img/zticon.png) -251px -31px no-repeat;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+[type=radio]:not(:checked)+label:after, [type=radio]:not(:checked)+label:before {
+    border: 1px solid #cfcfcf;
+}
+
+[type=radio]:checked+label:after, [type=radio]:checked+label:before, [type=radio]:not(:checked)+label:after, [type=radio]:not(:checked)+label:before {
+    border-radius: 50%;
+}
+
+[type=radio]:checked+label:before {
+    border: 1px solid #ff630e;
+    background-color: #ff630e;
+}
+
+[type=radio]+label:before {
+    -webkit-transition: -webkit-transform .28s ease;
+    transition: -webkit-transform .28s ease;
+    transition: transform .28s ease;
+    transition: transform .28s ease,-webkit-transform .28s ease;
+}
+
+[type=radio]+label:after, [type=radio]+label:before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    margin: 4px;
+    width: 28px;
+    height: 28px;
+    z-index: 0;
+    left: 0;
+}
+
+.report-m .radio-inline label {
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
