@@ -72,7 +72,7 @@ $(function() {
 			.val();
 			$
 			.ajax({
-				url : "http://127.0.0.1:8081/ajaxSearch.html?kw="
+				url : "/ajaxSearch.html?kw="
 						+ search_value,
 				dataType : "jsonp",
 				type : "GET",
