@@ -928,6 +928,7 @@ em, i {
 
 
 
+<<<<<<< HEAD
 .report-win {
     display: none;
     position: fixed;
@@ -1159,3 +1160,8 @@ em, i {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .14);
     background-color: rgba(0, 0, 0, .8);
 }
+=======
+
+
+
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383

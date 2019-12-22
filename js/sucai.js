@@ -27,9 +27,13 @@ $(function(){
 	
 	$('#ztscbtn').click(function() {
 		showFavorite();
+<<<<<<< HEAD
 	});
 	$('.ztdwbtn').click(function() {
 		showDownload();
+=======
+		$('#fav-win').css("display","block");
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
 	});
 	
 	$('.fav-new-placeholder').click(function() {
@@ -140,7 +144,10 @@ function addFavorite() {
 function addFavoriteItem(){
 	if($('#fav_form input:checked').val() == null){
 		showToast("请选择一个收藏夹");
+<<<<<<< HEAD
 		return;
+=======
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
 	}
 	$.ajax({
 		url : "/home/favorite/add.html?fid=" + $('#fav_form input:checked').val() + '&sid=' + $('#pid').val(),
@@ -170,6 +177,7 @@ function addFavoriteItem(){
 	});
 
 }
+<<<<<<< HEAD
 function showDownload(){
 	if($('#login-user-div').length < 1){
 		showToast("请先登录！");
@@ -184,6 +192,11 @@ function showFavorite() {
 		return;
 	}
 	$('#fav-win').css("display","block");
+=======
+
+
+function showFavorite() {
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
 	$.ajax({
 		url : "/home/favorite/list.html",
 		dataType : "jsonp",
@@ -215,6 +228,7 @@ function showFavorite() {
 		}
 	});
 }
+<<<<<<< HEAD
 
 function subJubao(){
 	var contentTitle = $("input[name='reason']:checked").val();
@@ -235,3 +249,5 @@ function subJubao(){
 		  }
 	});
 }
+=======
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383

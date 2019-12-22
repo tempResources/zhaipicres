@@ -11,6 +11,7 @@ $(function(){
 
 })
 
+<<<<<<< HEAD
 
 function subFankui(){
 	var contentTitle = $("input[name='reason']:checked").val();
@@ -31,3 +32,5 @@ function subFankui(){
 		  }
 	});
 }
+=======
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383

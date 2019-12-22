@@ -13,6 +13,7 @@ $(function() {
 		align:"left"
 	});
 	
+<<<<<<< HEAD
 	
 	$('.jianyi').click(function(){
 		$('#jianyi-win').attr("style","display: block;");
@@ -22,6 +23,8 @@ $(function() {
 		$('#jianyi-win').attr("style","display: none;");
 	})
 	
+=======
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
 	$(".search-result").hover(
 			  function () {
 				  search_tip_focus = true;
@@ -95,6 +98,7 @@ $(function() {
 		}
 	});
 
+<<<<<<< HEAD
 })
 
 function subJianyi(){
@@ -121,3 +125,6 @@ function showToast(msg) {
 	$('.be-toast').css('display','block');
 	toast_handler = setTimeout("$('.be-toast').css('display','none')", "3000");
 }
+=======
+})
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383

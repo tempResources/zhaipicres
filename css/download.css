@@ -64,10 +64,17 @@
 
 
 .download-box .down-waiting {
+<<<<<<< HEAD
 	display: none; 
     position: relative;
     padding-left: 80px;
     margin-top: 20px;
+=======
+	 display: none; 
+    position: relative;
+    padding-left: 80px;
+    margin-top: 50px;
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
     height: 72px;
 }
 
@@ -264,7 +271,11 @@
     margin: 0 0 0 -201px;
     border: 1px #e5e5e5 solid;
     border-radius: 3px;
+<<<<<<< HEAD
     background-color: #fff;
+=======
+    background-color: #fafafa;
+>>>>>>> b2b18fe050d86ef02339d4dfe47232d0f01e8383
     
 }
 
