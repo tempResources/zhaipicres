@@ -237,6 +237,7 @@
 .tag-box {
     height: auto!important;
     max-height: 300px;
+    overflow: hidden;
 }
 
 .detail-info .img-tag .tag-box a {
