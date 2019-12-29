@@ -4,7 +4,7 @@ var search_input_focus = false;
 var search_tip_pos = -1;
 
 $(function() {
-	$("img.lazy").lazyload({effect: "fadeIn"});
+	$("img.lazy").lazyload({effect: "fadeIn",threshold: 200});
 	
 	$('#flow .flow-item').wookmark({
 		container: $('#flow'),

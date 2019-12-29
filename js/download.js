@@ -15,7 +15,7 @@ $(function(){
 function subFankui(){
 	var contentTitle = $("input[name='reason']:checked").val();
 	var contentDesc = $('#report_reason').val();
-	var contentType = '作品反馈';
+	var contentType = '作品反馈-' + $('#pid').val();
 	
 	$('.report-win').attr("style","display: none;");
 

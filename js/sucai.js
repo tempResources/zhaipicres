@@ -1,6 +1,6 @@
 $(function(){
 	
-	$("img.lazy").lazyload({effect: "fadeIn",threshold : 1});
+	$("img.lazy").lazyload({effect: "fadeIn",threshold : 100});
 	
 	$('.detail-img').click(function(){
 		$('.big-pic-model').attr("style","display: block;");
