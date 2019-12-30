@@ -14,6 +14,10 @@ $(function(){
 	})
 	
 	$('.jubao').click(function(){
+		if($('#login-user-div').length < 1){
+			gotologin();
+			return;
+		}
 		$('#jubao-win').attr("style","display: block;");
 	})
 	
@@ -225,11 +229,7 @@ function showFavorite() {
 }
 
 function subJubao(){
-	if($('#login-user-div').length < 1){
-		gotologin();
-		return;
-	}
-	
+
 	var contentTitle = $("input[name='reason']:checked").val();
 	var contentDesc = $('#report_reason').val();
 	var contentType = '作品举报-' + $('#pid').val();
