@@ -66,6 +66,10 @@ $(function(){
 
 
 function addFollow(){
+	if($('#login-user-div').length < 1){
+		gotologin();
+		return;
+	}
 	var authorID = $('#authorID').val();
 	$.ajax({
 		url : "/home/follow/add.html?authorID=" + authorID,
@@ -98,6 +102,10 @@ function addFollow(){
 }
 
 function deleteFollow(){
+	if($('#login-user-div').length < 1){
+		gotologin();
+		return;
+	}
 	var authorID = $('#authorID').val();
 	$.ajax({
 		url : "/home/follow/delete.html?authorID=" + authorID,
@@ -172,7 +180,7 @@ function addFavoriteItem(){
 }
 function showDownload(){
 	if($('#login-user-div').length < 1){
-		showToast("请先登录！");
+		gotologin();
 		return;
 	}
 	window.open('/download/'+ $('#pid').val() +'.html');
@@ -180,7 +188,7 @@ function showDownload(){
 
 function showFavorite() {
 	if($('#login-user-div').length < 1){
-		showToast("请先登录！");
+		gotologin();
 		return;
 	}
 	$('#fav-win').css("display","block");
@@ -217,6 +225,11 @@ function showFavorite() {
 }
 
 function subJubao(){
+	if($('#login-user-div').length < 1){
+		gotologin();
+		return;
+	}
+	
 	var contentTitle = $("input[name='reason']:checked").val();
 	var contentDesc = $('#report_reason').val();
 	var contentType = '作品举报-' + $('#pid').val();
