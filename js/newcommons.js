@@ -91,11 +91,9 @@ $(function() {
 	
 	
 	$('.header-r').hover(function() {
-		$('.l-menu').fadeIn("300");
-		//display: inline;
-		$('#bface').lazyload();
+		$('.l-menu').show();
 	}, function() {
-		$('.l-menu').fadeOut("300");
+		$('.l-menu').hide();
 	});
 	
 
